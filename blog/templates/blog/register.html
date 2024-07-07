@@ -1,0 +1,14 @@
+<!-- blog/templates/blog/register.html -->
+
+{% extends "blog/base.html" %}
+
+{% block content %}
+<h2>Register</h2>
+<form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Register</button>
+</form>
+{% endblock %}
+
+<!--includes a CSRF token for security ({% csrf_token %}) and uses {{ form.as_p }} to render the form fields-->
