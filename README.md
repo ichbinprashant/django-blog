@@ -2,6 +2,9 @@
 
 This is a Django-based blog application where users can create, read, update, and delete blog posts. It includes functionalities for user authentication and an admin panel for managing posts.
 
+## Preview
+![screencapture-127-0-0-1-8000-blog-2024-07-07-22_02_51](https://github.com/ichbinprashant/django-blog/assets/33893505/5477b0ba-5538-49d8-9939-44f7781c1e1e)
+
 ## Features
 
 - List all blog posts with pagination.
